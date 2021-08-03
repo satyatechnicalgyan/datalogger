@@ -40,6 +40,6 @@ void loop() {
   } else {
     Serial.println("error opening file");
   }
-  int_iter += 1;
+  int_iter += 1;//SAVE THIS DATA 
   delay(1000);
 }
