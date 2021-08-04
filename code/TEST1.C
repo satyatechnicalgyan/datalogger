@@ -37,9 +37,9 @@ void loop() {
   String data_array = "";
   data_array += String(millis()); // save milliseconds since start of program
   data_array += ",";
-//  data_array += String(bme.readTemperature()); // save temp
+//  data_array += String(Serial.read()); // save temp
   data_array += ",";
-//  data_array += String(bme.readHumidity()); // save humidity
+//  data_array += String(bme.readHumidity()); // save humidity or use Serial.read()
   data_array += ",";
 //  data_array += String(bme.readPressure()); // save pressure in Pa
   data_array += ",";
